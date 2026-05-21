@@ -5,7 +5,7 @@ empty required fields, and missing ID parameters.
 """
 import requests
 import pytest
-from conftest import BASE_URL, ADMIN_EMAIL, ADMIN_PASSWORD
+from src.conftest import BASE_URL, ADMIN_EMAIL, ADMIN_PASSWORD
 
 
 # ── Unsupported HTTP methods ───────────────────────────────────────────────────

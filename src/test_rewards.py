@@ -5,7 +5,7 @@ Tests GET (public), POST/PUT/DELETE (admin-only), and input validation.
 import uuid
 import requests
 import pytest
-from conftest import BASE_URL
+from src.conftest import BASE_URL
 
 
 def unique_id(prefix="R"):

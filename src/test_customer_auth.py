@@ -4,7 +4,7 @@ Test Suite: Customer Registration and Login
 import uuid
 import requests
 import pytest
-from conftest import (
+from src.conftest import (
     BASE_URL,
     TEST_CUSTOMER_EMAIL,
     TEST_CUSTOMER_PASSWORD,

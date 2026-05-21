@@ -4,7 +4,7 @@ Tests admin logout and that a revoked token is rejected on subsequent requests.
 """
 import requests
 import pytest
-from conftest import BASE_URL
+from src.conftest import BASE_URL
 
 
 def test_admin_logout_revokes_token(admin_headers, admin_token):

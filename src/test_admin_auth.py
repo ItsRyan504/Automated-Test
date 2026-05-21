@@ -4,7 +4,7 @@ Tests valid login (via session fixture), invalid credentials, missing fields.
 """
 import requests
 import pytest
-from conftest import BASE_URL, ADMIN_EMAIL, ADMIN_PASSWORD
+from src.conftest import BASE_URL, ADMIN_EMAIL, ADMIN_PASSWORD
 
 
 def test_admin_login_token_is_valid(admin_token):
